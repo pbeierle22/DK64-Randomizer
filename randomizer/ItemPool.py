@@ -154,6 +154,7 @@ def OwnedKongMoves(kongs):
         kongMoves.extend(TinyMoves)
     if KongObject.Kongs.chunky in kongs:
         kongMoves.extend(ChunkyMoves)
+    return kongMoves
 
 
 def Blueprints(settings):
